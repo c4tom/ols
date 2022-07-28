@@ -1,3 +1,2 @@
-FROM litespeedtech/openlitespeed:latest
+FROM centos:latest
 
-RUN apt-get update && apt-get install lsphp74-pspell -y
